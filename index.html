@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RIDEZ STUDIO - Studio Kreatif Mahasiswa</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f8fafc;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #1e293b, #3b82f6);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.1em;
+      margin-top: 10px;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .services, .gallery {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+    .card img {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+      margin-bottom: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .card h3 {
+      margin: 0;
+      color: #1e293b;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .btn {
+      background: #2563eb;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin: 8px;
+    }
+    .btn:hover {
+      background: #1e40af;
+    }
+    footer {
+      background: #1e293b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    @media (min-width: 600px) {
+      .services, .gallery {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (min-width: 900px) {
+      .services, .gallery {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>RIDEZ STUDIO</h1>
+    <p>Kreativitas Tanpa Batas, Solusi Digital dari Mahasiswa untuk Semua!</p>
+  </header>
+
+  <section>
+    <h2 style="text-align:center;">📌 Layanan Kami</h2>
+    <div class="services">
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Logo Design Icon">
+        <h3>Desain Logo</h3>
+        <p>Membuat logo unik & profesional sesuai identitas bisnis Anda.</p>
+      </div>
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1055/1055666.png" alt="Poster Icon">
+        <h3>Poster Promosi</h3>
+        <p>Desain poster untuk event, promosi, dan konten kampanye Anda.</p>
+      </div>
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/167/167707.png" alt="Brosur Icon">
+        <h3>Brosur & Kartu Nama</h3>
+        <p>Materi cetak elegan untuk branding bisnis dan usaha Anda.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 style="text-align:center;">🖼️ Hasil Karya Kami</h2>
+    <p style="text-align:center;">Beberapa contoh hasil desain yang telah kami kerjakan.</p>
+    <div class="gallery">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200?text=Logo+UMKM" alt="Contoh Logo">
+        <h3>Logo UMKM</h3>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200?text=Poster+Event" alt="Contoh Poster">
+        <h3>Poster Promosi</h3>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200?text=Brosur+Produk" alt="Contoh Brosur">
+        <h3>Brosur Produk</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>🚀 Hubungi Kami Sekarang!</h2>
+    <p>Punya ide? Butuh branding? Kami siap bantu!</p>
+    <a href="https://wa.me/6281234567890" class="btn" target="_blank">WhatsApp</a>
+    <a href="https://instagram.com/ridezstudio" class="btn" target="_blank">Instagram</a>
+    <a href="https://facebook.com/ridezstudio" class="btn" target="_blank">Facebook</a>
+    <a href="https://ads.google.com" class="btn" target="_blank">Google Ads</a>
+  </section>
+
+  <footer>
+    &copy; 2025 RIDEZ STUDIO – Dibuat oleh Mahasiswa STMIK Triguna Dharma
+  </footer>
+
+</body>
+</html>
